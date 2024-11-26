@@ -1,0 +1,4 @@
+# Cache-Control Header (enable browser caching)
+<filesMatch ".(ico|pdf|flv|mov|mp4|m4s|avi|jpg|jpeg|png|gif|svg|Webp|js|css|swf)$">
+Header set Cache-Control "max-age=604800, public"
+</filesMatch>

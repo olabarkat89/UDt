@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap");
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+/*===========================
+     01.COMMON CSS 
+===========================*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+  outline: 0 solid;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-size: 16px;
+  /* font-family: "Saira", sans-serif; */
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* font-family: "Saira", sans-serif; */
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+img {
+  max-width: 100%;
+}
+
+a,
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+p {
+  margin: 0;
+  color: #272727;
+  line-height: 1.8;
+}
+
+@media (max-width: 767px) {
+  p {
+    font-size: 14px;
+  }
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+input,
+select,
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+.sec-pad {
+  padding: 120px 0;
+}
+
+.sec-pad-top {
+  padding-top: 120px;
+}
+
+.sec-pad-bottom {
+  padding-bottom: 120px;
+}
+
+.sec-mar {
+  margin: 120px 0;
+}
+
+.sec-mar-top {
+  margin-top: 120px;
+}
+
+.sec-mar-bottom {
+  margin-bottom: 120px;
+}
+
+.directionAR { 
+  font-family: "Cairo", sans-serif !important;
+}
+.directionAR h1, 
+.directionAR h2, 
+.directionAR h3, 
+.directionAR h4, 
+.directionAR h5,
+.directionAR h6{
+  font-family: "Cairo", sans-serif !important;
+}
+
+.directionAR .main-nav ul li a{
+  font-family: "Cairo", sans-serif !important;
+}
+.directionAR .dropdown .btn a{
+  font-family: "Cairo", sans-serif !important;
+}
